@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.firstpages{
+    height: 100vh;
+    width: 100%;
+}
+.leftside{
+    height: 100vh;
+    width: 60%;
+    float: left;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(photo2.png);
+     background-size: cover; 
+    background-position: center;
+}
+
+.rightside{
+    height: 100vh;
+    width: 40%;
+    float: right;
+    background-color: rgb(33, 29, 54);
+    background-size: cover;
+    background-position: center;
+}
+#text{
+    font-size: 40px;
+    position: absolute;
+    top: 40%;
+    text-transform: uppercase;
+    color: rgb(146, 31, 228);
+}
+
+/* second pages */
+
+.secondpages{
+    height: 100vh;
+    width: 100%;
+    margin-top: 4px;
+    background-image: url(photo1.png);
+    background-size: cover;
+}
+h3{
+    text-align: center;
+    color: white;
+}
+.logo2{
+    height: 25%;
+    width: 15%;
+}
+.secondpages h1{
+    color: white;
+    font-size: 60px;
+    margin-left: 50px;
+    padding: 10px;
+}
+.secondpages p{
+    display: flex;
+    width: 50%;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    margin-left: 50px;
+}
+/* Third Pages */
+
+.thirdpages{
+    height: 100vh;
+    width: 100%;
+    margin-top: 4px;
+    background-color: rgb(33, 29, 54);
+}
+.thirdpages h3{
+    text-align: center;
+    color: white;
+}
+.thirdpages h1{
+    height: 150px;
+    padding: 40px;
+    margin: 10px;
+    font-size: 40px;
+    color: white;
+}
+.link a{
+    display: flex;
+    padding: 10px;
+    margin: 25px;
+    font-size: 25px;
+
+}
+.images{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-right: 20px;
+    float: right; 
+    align-items: center;
+}
+.img1{
+    height: 300px;
+    width: 600px;
+    background-image: url(photo2.png);
+    margin-right: 20px;
+}
+.img2{
+    height: 300px;
+    width: 600px;
+    background-image: url(photo1.png);
+    margin-right: 20px;
+}
